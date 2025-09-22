@@ -36,7 +36,8 @@ export default function HomeLayout() {
                 }
             }
         )
-    },[user?.id])
+    },
+)
 
     // map the profiles to their respective images
     const profileImages : string | any = {

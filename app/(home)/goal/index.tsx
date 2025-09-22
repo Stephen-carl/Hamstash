@@ -45,7 +45,7 @@ export default function GoalLayout() {
             }
         )
     },
-    [user?.id])
+    )
 
     const getTheGoals = (status:string) => {
         goalMutation.mutate(

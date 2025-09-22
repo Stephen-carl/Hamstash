@@ -58,7 +58,7 @@ export default function JarScreen() {
                 }
             }
         )
-        },[user?.id]
+        },
     )
 
     return (

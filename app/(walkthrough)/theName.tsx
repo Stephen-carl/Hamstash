@@ -28,7 +28,7 @@ export default function NameScreen() {
                 onSuccess : (data) =>{
                     // i think it result the insertedId of the parent
                     console.log(data);
-                    showSuccessAlert('success', `${data}`)
+                    // showSuccessAlert('success', `${data}`)
                     router.push({
                         pathname:'/(walkthrough)/theChildName',
                         params: {guardianId: data}

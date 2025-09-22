@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/hamLogo.png",
+    
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {

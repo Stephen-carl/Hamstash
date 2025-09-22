@@ -115,7 +115,7 @@ export default function GoalAdd() {
 
                     <Image
                     source={imageUse ? imageUse : require('@/assets/images/category/candy.png')}
-                    className="w-fit h-fit mt-6 "
+                    className="w-full h-fit mt-6 "
                     alt="Goal Image"
                     />
                     

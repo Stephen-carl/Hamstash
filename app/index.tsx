@@ -19,6 +19,8 @@ export default function WelcomeScreen() {
         if (isLoggedIn) {
             router.replace('/(home)/home')
         }
+        // route to first page
+        router.replace('/(walkthrough)/welcome')
       } catch (e) {
         console.error('Failed to initialize DB early:', e);
       }
